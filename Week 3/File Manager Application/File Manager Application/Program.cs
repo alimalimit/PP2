@@ -25,12 +25,12 @@ namespace File_Manager_Application
             public string path; 
             //путь передаваемой нами папки
 
-            public FileSystemInfo presentFSI = null; 
+            public FileSystemInfo presentFSI ; 
             //папка, с которой мы работаем на данный момент
 
             public int selectedItemIndex;//курсор
 
-            public DirectoryInfo dir = null; //используем класс Папки
+            public DirectoryInfo dir; //используем класс Папки
             public int lngth; //длина папки
 
             public FarManager (string path)

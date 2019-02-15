@@ -28,7 +28,7 @@ namespace Task_4
 
             File.Copy( sourcefile,targetfile , true);
 
-            File.Delete(Path.Combine(oldPath, fileName));
+            File.Delete(sourcefile);
 
         }
            
