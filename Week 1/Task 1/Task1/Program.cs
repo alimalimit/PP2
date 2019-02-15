@@ -49,7 +49,7 @@ namespace Task1
                     Console.Write(c + " ");//выводим на экран простые числа через пробел в строке
                 }
             }
-            Console.ReadKey();
+            
         }
     }
 }

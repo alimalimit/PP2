@@ -9,7 +9,7 @@ namespace Task_2
     //создаем класс студент
     class Student
     {
-        //присваиваем и считывае значения свойств с помощью аксессоров
+        //присваиваем и считываем значения свойств с помощью аксессоров
         public string Name { get; set; } 
         public string Id { get; set; }
         public int Year { get; set; }
