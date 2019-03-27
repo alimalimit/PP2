@@ -1,0 +1,27 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SnakeGame
+{
+    class Wall : GameObject
+    {
+        public Wall( char sign) : base(sign)
+        {
+            LoadLevel(1);
+
+        }
+
+        public void LoadLevel(int level)
+        {
+            string name = string.Format("Levels/Level{0}.txt, level");
+            using (StreamReader reader = new StreamReader(name))
+            {
+
+            }
+        }
+    }
+}

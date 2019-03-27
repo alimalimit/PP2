@@ -12,6 +12,7 @@ namespace Task_1
     {
         public double a;
         public double b;
+        
        
 
         public ComplexNumber()
