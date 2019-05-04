@@ -7,6 +7,7 @@ using System.IO;
 
 namespace File_Manager_Application
 {
+    
     class FarManager//создаю класс Farmanager 
     {
         int cursor;//создаю курсор
@@ -40,6 +41,7 @@ namespace File_Manager_Application
                     Console.BackgroundColor = ConsoleColor.Black;
                     Console.WriteLine(i + 1 + ". " + d[i].Name);
                 }
+                
             }
         }
 
@@ -138,6 +140,7 @@ namespace File_Manager_Application
     {
         static void Main(string[] args)
         {
+
             FarManager far = new FarManager(); //даю Farmanager-у имя far
             far.Start(@"C:\Users\Admin\Desktop\FarMan"); //указываем путь в котором мы будем запускать FarManager
         }
